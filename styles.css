@@ -1,0 +1,38 @@
+.calculator {
+    display: flex;
+}
+
+.numbtns {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+.numbutton {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 6px;
+}
+
+.opbutton {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 25%;
+}
+
