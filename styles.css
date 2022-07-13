@@ -1,5 +1,29 @@
 .calculator {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.displaybox {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.display {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 3px solid black;
+    width: 210px;
+    height: 60px;
+    font-size: 40px;
+}
+
+.btns {
+    display: flex;
 }
 
 .numbtns {
@@ -15,10 +39,10 @@
     justify-content: center;
 }
 
-.numbutton {
+button {
     font-size: 30px;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
@@ -28,11 +52,3 @@
     gap: 3px;
     margin-left: 6px;
 }
-
-.opbutton {
-    font-size: 30px;
-    width: 60px;
-    height: 60px;
-    border-radius: 25%;
-}
-
