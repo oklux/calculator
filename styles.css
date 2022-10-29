@@ -2,14 +2,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
+    margin-top: 25%;
     align-items: center;
     padding: 10px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: darkgray;
 }
 
 .displaybox {
     display: flex;
     gap: 6px;
     margin-bottom: 6px;
+    padding: 15px;
 }
 
 .display {
@@ -20,6 +26,7 @@
     width: 210px;
     height: 60px;
     font-size: 40px;
+    background-color: white;
 }
 
 .btns {
@@ -44,6 +51,9 @@ button {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    background-color: rgb(207, 79, 5);
+    cursor: pointer;
+    border: 3px solid;
 }
 
 .operators {
@@ -51,4 +61,12 @@ button {
     flex-direction: column;
     gap: 3px;
     margin-left: 6px;
+}
+
+.opbutton {
+    background-color: orange;
+}
+
+.clear {
+    background-color: rgb(44, 126, 250);
 }

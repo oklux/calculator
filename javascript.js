@@ -81,7 +81,7 @@ clear.addEventListener('click', () => {
 numBtns.forEach(e => {
     e.addEventListener('click', () => {
     if (displayValue.length > 9) return;
-    if (!currentOpe === '') {
+    if (!currOpe === '') {
         displayValue = e.textContent;
         display.textContent = displayValue;
         return;
@@ -119,16 +119,3 @@ operators.forEach(e => {
         console.log(currentOpe);
     })
 })
-
-
-// operators.forEach(e => {
-//     e.addEventListener('click', () => {
-//         if (operatorMode === true) {
-//             displayValue = operate(currentOpe,displayValue,prevValue)
-//             display.textContent = displayValue;
-//             operatorMode = false;
-//         }
-//         operatorMode = true;
-//         currentOpe = e.textContent
-//     })
-// })
